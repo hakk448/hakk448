@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">about</a>
+            <a href="">project/work</a>
+            <a href="">resume</a>
+            <a href="">contact</a>
+            <a href="">multimedia</a>
+        </nav>
+    </header>
+    <main>
+        <section id="multimedia" class="multimedia">
+            <h1>multimedia - image, audio,video,canvas,sv,embed,object,iframe</h1>
+            <h2>image - mobile,tablet,standard desktop,large desktop</h2>
+            <img src="/img/FlagOfCambodia.png"
+            srcset="/img/FlagOfCambodiaMobile.png 480w,
+            /img/FlagOfCambodiaTablet.png 768w,
+            /img/FlagOfCambodia.png 1024w,
+            /img/FlagOfCambodiaLarge.png 1600w " 
+            alt="Flag Of Cambodia"
+            sizes="(max-width:480px)480px,
+            (max-width:768px)760px,
+            (max-width:1024px)1024px,
+            1600px">
+            <p>Flag of Cambodia</p>
+            <h2>audio - mp3</h2>
+            <audio controls src="img/NokorReach.mp3">
+                <source src="img/NokorReach.mp3" type="audio./mpeg">
+                Your browser doesn't support the audio elememnt.
+                <a href="img/NokorReach.mp3">Download Nokoreach.mp3</a>
+            </audio>
+            <p>Nokoreach</p>
+            <h2>Video - mp4</h2>
+            <video controls width="1280" height="720">
+                <source src="img/NationalAnthemOfCambodia.mp4" type="video/mp4">
+                Your browser doesn't support the video tag.
+                <a href="img/NationalAnthemOfCambodia.mp4">
+                    Download the national Anthem of Cambodia
+                </a>
+            </video>
+            <a href="">National Anthem of Cambodia</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
